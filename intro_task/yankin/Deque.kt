@@ -1,19 +1,19 @@
-class DequeElement<T>(val value : T,
-                      var prev : DequeElement<T>? = null,
-                      var next : DequeElement<T>? = null)
+class DequeElement<T>(val value: T,
+                      var prev: DequeElement<T>? = null,
+                      var next: DequeElement<T>? = null)
 
 class Deque<T> {
-    private var first : DequeElement<T>? = null
-    private var last : DequeElement<T>? = null
+    private var first:  DequeElement<T>? = null
+    private var last: DequeElement<T>? = null
 
 
-    fun front() : T? =  first?.value
+    fun front(): T? =  first?.value
 
-    fun back() : T? =  last?.value
+    fun back(): T? =  last?.value
 
     fun isEmpty() = first == null
 
-    fun size() : Int {
+    fun size(): Int {
         if (isEmpty()) return 0
 
         var size = 1
@@ -35,7 +35,7 @@ class Deque<T> {
         last = null
     }
 
-    fun pushFront(value : T) {
+    fun pushFront(value: T) {
         if (!isEmpty()) {
             val newNode = DequeElement(value, next = first)
             first!!.prev = newNode
@@ -46,7 +46,7 @@ class Deque<T> {
         }
     }
 
-    fun pushBack(value : T) {
+    fun pushBack(value: T) {
         if (!isEmpty()) {
             val newNode = DequeElement(value, prev = last)
             last!!.next = newNode
@@ -57,7 +57,7 @@ class Deque<T> {
         }
     }
 
-    fun popFront() : T? {
+    fun popFront(): T? {
         val resNode = first
         if (!isEmpty()) {
             val node = first
@@ -70,7 +70,7 @@ class Deque<T> {
         return resNode?.value
     }
 
-    fun popBack() : T? {
+    fun popBack(): T? {
         val resNode = last
         if (!isEmpty()) {
             val node = last
