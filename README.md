@@ -7,7 +7,7 @@
 | Колосова   | Кузина     | Колногоров | Порывай    | Синельников | Абибулаев  |
 | Гордиенко  | Кулачкова  | Мешков     | Карабанов  | Янкин       | Парфентьев |
 | Потураева  | Рочева     | Рыжиков    | Ивченко    | Мирончик    | Рудько     |
-| [github]() | [github](https://github.com/rakhele/summer_practice) | [github]() | [github]() | [github]()  | [github]() |
+| [github]() | [github](https://github.com/rakhele/summer_practice) | [github]() | [github]() | [github]()  | [github](https://github.com/otsheln1k/summer_practice_2020) |
 
 ## Прогресс команд
 
