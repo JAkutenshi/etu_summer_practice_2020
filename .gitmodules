@@ -1,0 +1,6 @@
+[submodule "orange"]
+	path = orange
+	url = https://github.com/rakhele/summer_practice.git
+[submodule "purple"]
+	path = purple
+	url = https://github.com/otsheln1k/summer_practice_2020.git
