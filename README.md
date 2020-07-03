@@ -7,7 +7,7 @@
 | Колосова   | Кузина     | Колногоров | Порывай    | Синельников | Абибулаев  |
 | Гордиенко  | Кулачкова  | Мешков     | Карабанов  | Янкин       | Парфентьев |
 | Потураева  | Рочева     | Рыжиков    | Ивченко    | Мирончик    | Рудько     |
-| [github]() | [github](https://github.com/rakhele/summer_practice) | [github]() | [github]() | [github]()  | [github](https://github.com/otsheln1k/summer_practice_2020) |
+| [github](https://github.com/alexgorderr/JavaSocks) | [github](https://github.com/rakhele/summer_practice) | [github](https://github.com/Heliconter/floyd-warshall-visualizer) | [github](https://github.com/scissorsnatcher/blue_team_practice) | [github](https://github.com/Pavel-by/paa8382trio1)  | [github](https://github.com/otsheln1k/summer_practice_2020) |
 
 ## Прогресс команд
 
