@@ -4,3 +4,15 @@
 [submodule "purple"]
 	path = purple
 	url = https://github.com/otsheln1k/summer_practice_2020.git
+[submodule "yellow"]
+	path = yellow
+	url = https://github.com/Heliconter/floyd-warshall-visualizer.git
+[submodule "violet"]
+	path = violet
+	url = https://github.com/Pavel-by/paa8382trio1.git
+[submodule "blue"]
+	path = blue
+	url = https://github.com/scissorsnatcher/blue_team_practice.git
+[submodule "red"]
+	path = red
+	url = https://github.com/alexgorderr/JavaSocks.git
