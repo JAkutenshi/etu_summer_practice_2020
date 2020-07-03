@@ -7,3 +7,5 @@ git fetch pajecawav
 git fetch otsheln1k
 git fetch scissorsnatcher
 git fetch AlexRyzhickov
+git fetch smotritetamptiza
+git fetch a-kuzina

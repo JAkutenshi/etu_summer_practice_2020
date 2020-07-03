@@ -7,3 +7,5 @@ git remote add pajecawav        https://github.com/pajecawav/etu_summer_practice
 git remote add otsheln1k        https://github.com/otsheln1k/etu_summer_practice_2020.git
 git remote add scissorsnatcher  https://github.com/scissorsnatcher/etu_summer_practice_2020.git
 git remote add AlexRyzhickov    https://github.com/AlexRyzhickov/etu_summer_practice_2020.git
+git remote add smotritetamptiza https://github.com/smotritetamptiza/etu_summer_practice_2020.git
+git remote add a-kuzina         https://github.com/a-kuzina/etu_summer_practice_2020.git
