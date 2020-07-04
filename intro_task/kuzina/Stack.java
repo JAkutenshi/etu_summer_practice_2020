@@ -1,6 +1,7 @@
-package intro_task;
 
-class Stack{
+
+
+public class Stack{
     private int values[];
     private int count;
 

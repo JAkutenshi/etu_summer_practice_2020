@@ -1,5 +1,3 @@
-package intro_task;
-
 import java.util.Scanner;
 
 
@@ -16,26 +14,38 @@ public class Main {
             int sum = 0;
             if(Character.isDigit(input.charAt(i)))
                 head.push(input.charAt(i) - 48);
+            else {
+                if(head.getCount() < 2){
+                    System.out.println("There is something wrong with entered postfix notation, can't calculate result");
+                    return;
+                }
+                switch (input.charAt(i)) {
+                    case '+': {
+                        sum += head.pop();
+                        sum += head.pop();
+                        head.push(sum);
+                        break;
+                    }
+                    case '-': {
+                        sum += head.pop();
+                        sum = -1 * sum + head.pop();
+                        head.push(sum);
+                        break;
+                    }
+                    case '/': {
+                        sum += head.pop();
+                        sum = head.pop() / sum;
+                        head.push(sum);
+                        break;
+                    }
+                    case '*': {
+                        sum += head.pop();
+                        sum = sum * head.pop();
+                        head.push(sum);
+                        break;
+                    }
 
-            if(input.charAt(i) == '+'){
-                sum += head.pop();
-                sum += head.pop();
-                head.push(sum);
-            }
-            if(input.charAt(i) == '-'){
-                sum += head.pop();
-                sum = -1*sum + head.pop();
-                head.push(sum);
-            }
-            if(input.charAt(i) == '*'){
-                sum += head.pop();
-                sum = sum* head.pop();
-                head.push(sum);
-            }
-            if(input.charAt(i) == '/'){
-                sum += head.pop();
-                sum =  head.pop() / sum;
-                head.push(sum);
+                }
             }
         }
 
